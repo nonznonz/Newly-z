@@ -111,3 +111,38 @@ line-height: 30px;
 .project-descriptions{
     padding:  120px 60px;
 }
+
+.logo{
+    max-width: 150px;
+}
+
+nav{
+
+    padding:20px 0;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+    line-height: 40px;
+    margin: 10px;
+}
+
+nav ul{
+    padding:0;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #272142;
+}
+
+nav li.active a{
+    color: var(--branding-color);
+}
+
+nav a:hover{
+    color: var(--branding-color);
+    transition: all 150ms ease-in-out;
+}
