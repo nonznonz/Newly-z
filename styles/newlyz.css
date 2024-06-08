@@ -81,7 +81,12 @@ line-height: 30px;
     font-family: var(--default-font-family);
 }
 
+.content-container h3{
 
+    font-size: 24px;
+    font-family: var(--default-font-family);
+
+}
 
 .btn-branding {
     background: var(--branding-color) ;
